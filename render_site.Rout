@@ -1,6 +1,6 @@
 
-R version 3.3.2 (2016-10-31) -- "Sincere Pumpkin Patch"
-Copyright (C) 2016 The R Foundation for Statistical Computing
+R version 3.4.3 (2017-11-30) -- "Kite-Eating Tree"
+Copyright (C) 2017 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
@@ -26,739 +26,1216 @@ Type 'q()' to quit R.
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS a_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output a_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21891d430001.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21896137eff8.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS a_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output a_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5669ed33f2.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5665466ac8.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS ala_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ala_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21892e6268eb.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21893e14546e.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS ala_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ala_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c566fafca5d.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56153b55d3.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS ala.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ala.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218964d557dd.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21896e2edcfb.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS ala.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ala.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5660e5b182.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5632ed6d4f.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS arg_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output arg_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218914142b16.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218954abc12f.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS arg_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output arg_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5673a2d2a.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56393520e4.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS arg.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output arg.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218983f10df.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21893c880e07.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS arg.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output arg.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5678acc6e2.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5677297c9.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS a.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output a.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218950165d8b.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189720900be.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS a.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output a.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c564b62a603.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c565a469b6e.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS asn_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output asn_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21895fb376ad.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189ce9bbb3.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS asn_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output asn_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5615010a4.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56153e955d.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS asn.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output asn.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str2189799ef5f3.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21898ba7984.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS asn.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output asn.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5665835d44.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5616a561fd.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS asp_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output asp_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21895ea12b4e.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21898fb63ce.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS asp_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output asp_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5677788812.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5646804c95.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS asp.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output asp.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218914cb2497.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218942eeec53.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS asp.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output asp.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c562a42f1b0.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c561167fd47.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS c_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output c_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str2189209f5ab6.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189297689c1.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS ca_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ca_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c564cce911c.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5618ed7b6d.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS c.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output c.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21892e8671e3.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21891eac3612.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS ca.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ca.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56394a5e6a.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c567553e709.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS cys_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cys_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218959119196.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189a5aac1b.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cb_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cb_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c563147affe.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c562c365091.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS cys.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cys.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str2189471dfa8.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189798d5736.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cb.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cb.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5647ab4c4c.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c564ad09a7b.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS da_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output da_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21893deaaaf9.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218921bb214a.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cd1_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cd1_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c563820d520.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5665d78d2a.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS da.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output da.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21894e021b96.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21895a882157.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cd1.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cd1.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56269d2a7c.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c561c241c1.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS dc_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dc_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218963782d87.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189359c85f1.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cd2_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cd2_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c562fd66bef.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5675b55b64.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS dc.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dc.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str2189ccf2c6f.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218912d00e94.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cd2.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cd2.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c565e2ed752.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56331669a5.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS dg_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dg_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21891bd76883.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189722392b8.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cd_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cd_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5624043875.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5684107f4.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS dg.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dg.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str2189a35e841.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218974c89a9e.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS c_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output c_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56462b461e.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5628d9b6f7.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS dt_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dt_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21894d79a0f1.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218934f4e5.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cd.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cd.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5661d059c9.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5646e590e3.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS dt.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dt.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str2189648b7318.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189482532b.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cg1_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cg1_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c566c2cbd15.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c561fe19627.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS g_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output g_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21897229e27e.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218968859cc0.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cg1.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cg1.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56b90c057.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5660611c51.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS gln_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output gln_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21896d6bb3e8.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21897d4ccc11.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cg2_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cg2_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c562ebb886b.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5623b4a7f0.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS gln.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output gln.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21895078c9e6.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218954d42bdb.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cg2.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cg2.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5613cd59a7.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c563c0f60f9.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS glu_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output glu_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21895b9fd58f.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218957b82385.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cg_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cg_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56520a887a.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5615da7bbb.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS glu.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output glu.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218911f5a913.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21896055e45a.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cg.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cg.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5649bd13cf.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56640f6dc7.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS gly_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output gly_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21891ab2552c.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189f61f4ff.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS c.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output c.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5617d27077.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56bb9090.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS gly.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output gly.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218934cf54f3.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21895855bcb5.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cys_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cys_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56773015f7.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56a4eb403.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS g.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output g.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21891f167fa1.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189482deb72.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS cys.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output cys.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5660730e89.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c563014d9ba.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS his_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output his_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218918ee55f1.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21897ff4afe4.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS da_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output da_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c562b748316.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56c37d17e.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS his.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output his.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218944a64624.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218919689d1.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS da.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output da.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5675e20104.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5678b6b43d.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS ile_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ile_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str2189401c549e.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21896f2663c.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS dc_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dc_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5614277387.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56130b0854.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS ile.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ile.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str2189c2989e.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21894fbc28d.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS dc.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dc.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c563d43e12b.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c564d24d7cc.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS dg_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dg_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c565abb3369.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c567bbc64af.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS dg.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dg.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5648a48b26.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c564e075c15.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS dt_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dt_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c567aec7962.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5610205963.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS dt.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output dt.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5634b1bcc4.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c563c8943b6.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS g_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output g_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56669221b.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56288403f2.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS gln_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output gln_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c566bdbd35f.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c564872ec28.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS gln.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output gln.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c562846656f.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56311ecf5f.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS glu_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output glu_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5655f3f0f0.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56703105c5.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS glu.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output glu.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c567199801f.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56634e266b.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS gly_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output gly_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56a7af8e3.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5652248078.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS gly.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output gly.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5667d8ce28.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5648eee168.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS g.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output g.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5679a4202b.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5676560776.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS ha2_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ha2_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56666800b3.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56341c228d.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS ha2.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ha2.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5678b121d4.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56e164497.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS ha3_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ha3_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5654d32a6.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56455653c5.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS ha3.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ha3.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56b76b42d.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5636534a2f.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS ha_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ha_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c564e805f16.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c563abb0e82.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS ha.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ha.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5657ddd2d1.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c564a52d746.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS hb2_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output hb2_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c566995174a.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5618ccc43c.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS hb2.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output hb2.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c562041a80.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5649cf442d.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS hb3_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output hb3_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5637f47c95.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c565ae41454.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS hb3.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output hb3.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c563393cc40.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5654fc7a10.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS hb_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output hb_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c567d4a1242.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56c316123.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS hb.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output hb.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5651c943e7.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5614f9dce8.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS his_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output his_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56feff97f.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c565299b2ce.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS his.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output his.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c561f49474f.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56168d9714.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS ile_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ile_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56141ac8bd.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56b40f480.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS ile.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ile.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5653869cb7.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c565c1169f9.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
   ordinary text without R code
 
 
-/usr/bin/pandoc +RTS -K512m -RTS index.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output index.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21895056c1a3.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218910f80861.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS index.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output index.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5623151cc.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c567c12bf11.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS leu_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output leu_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21895f3ea369.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21897014d019.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS leu_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output leu_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5623810a87.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56363cf639.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS leu.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output leu.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218963611702.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218911d33c9c.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS leu.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output leu.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c565ee72b52.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c567bfeb984.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS lys_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output lys_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21897d249cc8.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218938712953.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS lys_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output lys_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5662d2b323.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5637209837.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS lys.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output lys.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21897c54ccd3.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21895299c0ce.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS lys.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output lys.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c563d8229c9.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56216ad48b.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS met_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output met_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21892b34bd8c.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189535a0e46.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS met_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output met_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5615911b93.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5650249f8f.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS met.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output met.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21894b7f58e1.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21894ff14061.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS met.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output met.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c567267a675.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56797c8f8d.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS phe_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output phe_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218944a22335.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218923a574f7.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS n_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output n_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c565fcf1903.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5640b3b400.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS phe.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output phe.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21895d86d9b.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21892577f42f.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS n.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output n.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5657965952.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5612af3630.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS pro_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output pro_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218970ff5fa4.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21896f762e39.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS phe_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output phe_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c563695bdec.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5627dcd231.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS pro.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output pro.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218911a84f52.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218917124aca.html --mathjax 
-/usr/bin/pandoc +RTS -K512m -RTS README.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output README.html --smart --email-obfuscation none --standalone --section-divs --template /home/kumaran/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218968d88369.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218931f3738b.html --mathjax --variable 'mathjax-url:https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' 
+/usr/bin/pandoc +RTS -K512m -RTS phe.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output phe.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c563e173b9b.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56dd934c7.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS ser_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ser_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21894e071bf4.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218940f9f27d.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS pro_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output pro_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5629b03440.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c565ac725e8.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS ser.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ser.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21894e51341.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21895f5a1c57.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS pro.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output pro.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56588db4ad.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5613aa1d05.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS README.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output README.html --smart --email-obfuscation none --standalone --section-divs --template /home/kumaran/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5626708f75.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5645095bd1.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS thr_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output thr_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218922f972cc.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21891ec2dbf9.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS ser_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ser_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5613f9412b.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56221e8f9.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS thr.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output thr.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str2189429420c3.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218944359c81.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS ser.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output ser.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c561bbf8f2a.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c567c4851d1.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS trp_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output trp_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218911e1c26.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21894859c93b.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS thr_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output thr_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c561721e8e8.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5613542591.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS trp.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output trp.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218945f8299a.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218930a617ba.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS thr.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output thr.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c566db24735.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c562c6ceecc.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS tyr_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output tyr_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218945542ef4.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21891aa5693.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS trp_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output trp_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5639932532.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c562c5038dd.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS tyr.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output tyr.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str2189697c74de.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218987a7c5a.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS trp.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output trp.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c56604d9c54.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c566a9b95d3.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS u_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output u_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21891233e5fd.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str21893777ca4d.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS tyr_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output tyr_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5683cf67d.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5667a66662.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS u.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output u.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21897c21d616.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str218916055a1.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS tyr.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output tyr.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5653b8e8cc.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c567b1f60a2.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS val_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output val_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str218930cb0115.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189625ce9c1.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS u_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output u_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c5664e22aa6.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56640cdefa.html --mathjax 
   |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
 label: unnamed-chunk-1 (with options) 
-List of 4
+List of 5
  $ fig.width : num 8
  $ fig.height: num 5
  $ eval      : logi TRUE
  $ echo      : logi FALSE
+ $ warning   : logi FALSE
 
 
-/usr/bin/pandoc +RTS -K512m -RTS val.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output val.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpRMQl9S/rmarkdown-str21896419ec0d.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpRMQl9S/rmarkdown-str2189492bc806.html --mathjax 
+/usr/bin/pandoc +RTS -K512m -RTS u.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output u.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c565874c01a.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c56468aa2c7.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS val_d.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output val_d.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c562915710.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c564acff8f5.html --mathjax 
+  |                                                                         |                                                                 |   0%  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: unnamed-chunk-1 (with options) 
+List of 5
+ $ fig.width : num 8
+ $ fig.height: num 5
+ $ eval      : logi TRUE
+ $ echo      : logi FALSE
+ $ warning   : logi FALSE
+
+
+/usr/bin/pandoc +RTS -K512m -RTS val.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output val.html --smart --email-obfuscation none --standalone --section-divs --template pandoc_template.html --highlight-style pygments --include-before-body /tmp/RtmpFnyKza/rmarkdown-str3c562d0ebe38.html --variable navbar=1 --variable body_padding=51 --variable header_padding=56 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpFnyKza/rmarkdown-str3c5625c1b2ab.html --mathjax 
 
 Output created: _site/index.html
+There were 50 or more warnings (use warnings() to see the first 50)
 > 
 > 
 > proc.time()
-   user  system elapsed 
-368.956   9.556 743.143 
+    user   system  elapsed 
+1407.331   25.112 2969.630 

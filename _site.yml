@@ -123,6 +123,71 @@ navbar:
           href: g_d.html
         - text: "U"
           href: u_d.html
+    - text: "Atoms Histogram"
+      menu:
+        - text: "CA"
+          href: ca.html
+        - text: "CB"
+          href: cb.html
+        - text: "CG"
+          href: cg.html
+        - text: "CG1"
+          href: cg1.html
+        - text: "CG2"
+          href: cg2.html
+        - text: "CD"
+          href: cd.html
+        - text: "CD1"
+          href: cd1.html
+        - text: "CD2"
+          href: cd2.html
+        - text: "N"
+          href: n.html
+        - text: "HA"
+          href: ha.html
+        - text: "HA2"
+          href: ha2.html
+        - text: "HA3"
+          href: ha3.html
+        - text: "HB"
+          href: hb.html
+        - text: "HB2"
+          href: hb2.html
+        - text: "HB3"
+          href: hb3.html
+    - text: "Atoms Density"
+      menu:
+        - text: "CA"
+          href: ca_d.html
+        - text: "CB"
+          href: cb_d.html
+        - text: "CG"
+          href: cg_d.html
+        - text: "CG1"
+          href: cg1_d.html
+        - text: "CG2"
+          href: cg2_d.html
+        - text: "CD"
+          href: cd_d.html
+        - text: "CD1"
+          href: cd1_d.html
+        - text: "CD2"
+          href: cd2_d.html
+        - text: "N"
+          href: n_d.html
+        - text: "HA"
+          href: ha_d.html
+        - text: "HA2"
+          href: ha2_d.html
+        - text: "HA3"
+          href: ha3_d.html
+        - text: "HB"
+          href: hb_d.html
+        - text: "HB2"
+          href: hb2_d.html
+        - text: "HB3"
+          href: hb3_d.html
+        
     - text: "RBMRB"
       href: http://www.bmrb.wisc.edu/RBMRB_Doc/
  

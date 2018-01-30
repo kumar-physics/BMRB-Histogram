@@ -1,0 +1,14 @@
+---
+title: "HB"
+output:
+  html_document:
+    template: pandoc_template.html
+---
+
+
+
+```{r, fig.width=8, fig.height=5, eval=TRUE, echo=FALSE,warning=FALSE}
+library(RBMRB)
+plt<-chemical_shift_hist(,'HB',bw=0.1)
+plt
+```
